@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    border-color: black;
+}
+body {
+    margin: 10px;
+    padding: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: bisque;
+
+
+}
+.sa{
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.logo {
+    background-color: rgb(29, 49, 224);
+    height: 50px;
+    display: flex;
+    animation: rebota 3s infinite;
+   
+}
+.menu {
+    background-color: rgb(55, 132, 194);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    animation: desvanece 3s infinite;
+}
+
+
+.menu img:hover{
+    transform: scale(1.1);
+}
+
+.seccion-slider{
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    
+}
+.slider-container {
+    display: flex;
+    background-color: rgb(47, 202, 151);
+    height: 200px;
+    align-items: center;  
+   
+}
+.slider-container:hover{
+    animation: desvanece 3s infinite;
+}
+.text-mosaic {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    
+}
+.text-content {
+    background-color: rgb(136, 136, 235);
+    height: 200px;
+    padding: 20px;
+    flex: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-color: black;
+}
+.text-content p {
+    animation: expandir 3s infinite;
+}
+
+@keyframes expandir {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+}
+
+.contact-photo1 {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    height: 610px;
+    
+}
+.contact-form1 {
+    background-color: rgb(96, 225, 120);
+    height: 600px;
+    flex: 1;
+}
+.contact-form1:hover {
+    animation: pulso 3s infinite;
+}
+.contact-form1:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    
+}
+.contact-form21 {
+    height: 600px;
+    flex: 1;
+}
+.alfa11{
+    background-color: rgb(38, 114, 48);
+    height: 100px;
+    flex: 1;
+    border-radius: 5%;
+
+}
+.alfa11:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+.alfa211{
+    background-color: rgb(46, 179, 46);
+    height: 180px;
+    flex: 1;
+    margin-top: 10px;
+    border-radius: 5%;
+ 
+}
+.alfa211:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+.alfa311{
+    background-color: rgb(193, 248, 151);
+    height: 300px;
+    flex: 1;
+    margin-top: 10px;
+    border-radius: 5%;
+    animation:backgroundChange 3s infinite ;
+}
+
+
+.contact-photo {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    height: 380px;
+}
+
+.contact-form:hover {
+    animation: pulso 3s infinite;
+}
+.contact-form {
+    background-color: rgb(46, 102, 154);
+    height: 360px;
+    flex: 1;
+}
+.contact-form:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    
+}
+.contact-form2 {
+    height: 360px;
+    flex: 1;
+}
+.alfa{
+    background-color: rgb(55, 132, 194);
+    height: 180px;
+    flex: 1;
+    border-radius: 5%;
+
+}
+.alfa:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+.alfa2{
+    background-color: rgb(55, 132, 194);
+    height: 180px;
+    flex: 1;
+    margin-top: 10px;
+    border-radius: 5%;
+ 
+}
+.alfa2:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+@keyframes pulso {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes rebota {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes desvanece {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes backgroundChange{
+    0%{background-color: rgb(157, 233, 136)e;}
+    50%{background-color: rgb(193, 248, 151);}
+    100%{background-color: rgb(81, 223, 41);}
+}
+   
+    
